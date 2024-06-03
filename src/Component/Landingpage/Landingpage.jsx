@@ -14,6 +14,8 @@ import Education from '../Othercomponents/Education'
 const Landingpage = () => {
   return (
     <>
+    
+
     <div className='bg-img'>
     <Header/>
     <Mainpage/>
