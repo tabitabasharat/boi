@@ -6,6 +6,10 @@ import Footer from '../Othercomponents/Footer'
 import GetinTouch from '../Othercomponents/GetinTouch'
 import Canned from '../Othercomponents/Canned'
 import Aboutus from '../Othercomponents/Aboutus'
+import Oursolution from '../Othercomponents/Oursolution'
+import Biofertilizer from '../Othercomponents/Biofertilizer '
+import Education from '../Othercomponents/Education'
+// import Revolutionizing from '../Othercomponents/Revolutionizing'
 
 const Landingpage = () => {
   return (
@@ -14,11 +18,14 @@ const Landingpage = () => {
     <Header/>
     <Mainpage/>
     </div>
-    <div>   
+    <div>  
+    <Revolutionizing/> 
+    <Oursolution/>
+    <Biofertilizer/>
       <Canned/>
-      <Aboutus/>
+      <Education/>
       <GetinTouch/>
-      {/* <Revolutionizing/> */}
+      <Aboutus/>
     <Footer/>
     </div>
     </>

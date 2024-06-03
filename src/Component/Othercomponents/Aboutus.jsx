@@ -10,7 +10,7 @@ const Aboutus = () => {
         <Col>
           <img src={co2} />
         </Col>
-        <Col className="co2" lg={5}>
+        <Col lg={5}>
             <h4 className="boutlink">About</h4>
           <h3 className="title">Our Story</h3>
           <p className=" d-flex align-items-center gap-3">

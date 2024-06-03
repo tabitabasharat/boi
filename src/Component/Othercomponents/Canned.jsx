@@ -8,9 +8,9 @@ const Canned = () => {
     <>
       <Container fluid>
         <Row className="co2">
-          <Col className="co2" lg={5}>
+          <Col lg={5}>
             <h3 className="title">Canned CO2</h3>
-            <p className="text-success d-flex align-items-center gap-3">
+            <p className="boutlink1 d-flex align-items-center gap-3">
               Learn More <img src={greenarrow} />
             </p>
             <hr />
